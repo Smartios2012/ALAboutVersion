@@ -7,6 +7,6 @@ s.license      = { :type => "MIT", :file => "LICENSE" }
 s.authors      = { "ALiang" => "https://github.com/Smartios2012/ALAboutVersion"}
 s.platform     = :ios, "7.0"
 s.source       = { :git => "https://github.com/Smartios2012/ALAboutVersion.git", :tag => s.version }
-s.source_files = "ALAboutVersion", "*.{h,m}"
+s.source_files = "ALAboutVersion", "ALAboutVersionDemo/**/*.{h,m}"
 s.requires_arc = true
 end
